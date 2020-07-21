@@ -1,0 +1,199 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<title>Hydro</title>
+<script src="/cdn-cgi/apps/head/uZbWXNggkCxaiXqESOkbMt_aSyM.js"></script><link rel="icon" href="/circle.ico" />
+
+<meta charset="utf-8" />
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js" type="9c7e92f5776812a4bad6115e-text/javascript"></script>
+
+<link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet" />
+
+<link type="text/css" rel="stylesheet" href="/css/global.css" media="screen,projection" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<meta name="theme-color" content="#66ccff" />
+<meta property="og:type" content="website" />
+<meta property=og:url content=https://hydro-bot.xyz>
+<meta property="og:title" content="Hydro - A Discord bot" />
+<meta property="og:description" content="Hydro features simple logging, helpful commands, basic moderation, and more to assist the staff of your Discord server." />
+<style>
+            .card {
+                background: #23272a;
+            }
+
+            .card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
+                color: #fff;
+            }
+
+            .card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating):hover {
+                color: lightgrey;
+            }
+
+            .card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
+                text-transform: none;
+            }
+
+            p {
+                color: #fff;
+            }
+
+            .carousel-slider {
+                min-height: 200px;
+                height: 300px !important;
+            }
+
+            body {
+                flex: 1 0 auto;
+            }
+        </style>
+</head>
+<body>
+<noscript>You need JavaScript Enabled to use Circle's site.</noscript>
+<div class="preloader"><img class="imagespin" src="https://circlebot.xyz/assets/circle.png" alt="" width="2512" height="5212" /></div>
+<script type="9c7e92f5776812a4bad6115e-text/javascript">
+            $(window).on('load', function() {
+                $('.preloader').fadeOut(1000);
+            });
+        </script>
+<script src="https://zswtg41vp2vd.statuspage.io/embed/script.js" type="9c7e92f5776812a4bad6115e-text/javascript"></script>
+<style>
+    .sidenav {
+        color: #fff;
+        background-color: #2C2F33;
+    }
+
+    .sidenav li>a {
+        color: #fff;
+        font-weight: inherit;
+    }
+
+    .dropdown-content {
+        color: #fff;
+        background-color: #2C2F33;
+    }
+
+    .dropdown-content a:hover {
+        background: rgba(0, 0, 0, 0.644);
+        border: none;
+    }
+
+    .divider {
+        background: #99AAB5;
+    }
+</style>
+<nav>
+<div class="nav-wrapper">
+<ul id="dropdown1" class="dropdown-content">
+            <%if(login === 'yes') {%>
+<li><a href="/guilds">Dashboard</a></li>
+<li><a href="/logout">Logout</a></li>
+          <%}%>
+</ul>
+
+<ul class="right hide-on-med-and-down">
+<li><a title="Invite" href="/invite">Invite</a></li>
+<li><a title="Discord" href="/support">Support</a></li>
+<li><a class="dropdownpoop" href="<%= login === 'yes' ? '/profile': '/login' %>" data-target="dropdown1"><%=status%></a></li>
+</ul>
+</li>
+<ul class="sidenav" id="mobile-demo">
+<li><a title="Invite" href="/invite">Invite</a></li>
+<li><a title="Discord" href="/support">Support</a></li>
+</ul>
+</div>
+</nav>
+<script type="9c7e92f5776812a4bad6115e-text/javascript">
+    document.addEventListener('DOMContentLoaded', function () {
+        var elems = document.querySelectorAll('.sidenav');
+        var instances = M.Sidenav.init(elems, {});
+    });
+    $(document).ready(function () {
+        $(".dropdownpoop").dropdown({ hover: true });
+    });
+</script>
+
+<div class="home-top center-align">
+<h2 style="margin-top: 0 !important;">Meet Hydro,<br />the only bot you'll ever need.</h2>
+<h4>Ready for an upgrade?</h4>
+<a href="/invite" style="background: #23272A;" class="btn waves-effect waves-light">Invite Hydro</a>
+</div>
+<div style="height: 150px; overflow: hidden;">
+<svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+<path d="M0.00,49.98 C367.37,169.23 271.49,-49.98 499.43,59.70 L500.00,0.00 L0.00,0.00 Z" style="stroke: none; fill: #66ccff;"></path>
+</svg>
+</div>
+
+<div class="home-2 center-align">
+<h3>Why Hydro?</h3>
+<div class="features">
+<div class="feature">
+<div class="feature-title"><img class="feature-icon" src="https://image.flaticon.com/icons/svg/148/148824.svg" />Logging</div>
+<div class="feature-desc">Advanced logging that shows who preformed an action.</div>
+</div>
+<div class="feature">
+<div class="feature-title"><img class="feature-icon" src="https://image.flaticon.com/icons/svg/1176/1176511.svg" />Moderation</div>
+<div class="feature-desc">Hydro features highly-configurable, elegant, moderation.</div>
+</div>
+<div class="feature">
+<div class="feature-title"><img class="feature-icon" src="https://image.flaticon.com/icons/svg/214/214342.svg" />Dashboard</div>
+<div class="feature-desc">Configuring a bot with commands is complex. Hydro has a simple dashboard that manages all configuration.</div>
+</div>
+<div class="feature">
+<div class="feature-title"><img class="feature-icon" src="https://image.flaticon.com/icons/svg/141/141109.svg" />Always Online</div>
+<div class="feature-desc">Hydro never sleeps, she's always online. Your server can always count on Hydro.</div>
+</div>
+<div class="feature">
+<div class="feature-title"><img class="feature-icon" src="https://image.flaticon.com/icons/svg/1533/1533908.svg" />User Incorporated Features</div>
+<div class="feature-desc">Have a suggestion? We listen. 90% of Hydro's features were suggested by our community members.</div>
+</div>
+<div class="feature">
+<div class="feature-title"><img class="feature-icon" src="https://image.flaticon.com/icons/svg/1828/1828817.svg" />More</div>
+<div class="feature-desc">Hydro has a plethora of features. New features are constantly being added.</div>
+</div>
+
+</div>
+</div>
+
+<script type="9c7e92f5776812a4bad6115e-text/javascript" src="/js/materialize.js"></script>
+<script type="9c7e92f5776812a4bad6115e-text/javascript" src="/js/main.js"></script>
+<script type="9c7e92f5776812a4bad6115e-text/javascript" src="/js/status.js"></script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" type="9c7e92f5776812a4bad6115e-text/javascript"></script>
+<script data-ad-client="ca-pub-9037413653003693" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" type="9c7e92f5776812a4bad6115e-text/javascript"></script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-133673565-1" type="9c7e92f5776812a4bad6115e-text/javascript"></script>
+<script type="9c7e92f5776812a4bad6115e-text/javascript">
+            $('.carousel.carousel-slider').carousel({
+                fullWidth: true,
+                indicators: true
+            });
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+
+            gtag('config', 'UA-133673565-1');
+        </script>
+<style>
+    .page-footer {
+        background-color: #23272A;
+    }
+    .page-footer a {
+        color: #66ccff;
+        opacity: 95%;
+    }
+</style>
+<footer class="page-footer">
+<div class="footer-copyright">
+<div class="container">
+<p class="grey-text text-lighten-4 left">© 2020 Hydro Team.<br></p>
+</div>
+</div>
+</footer>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js" data-cf-settings="9c7e92f5776812a4bad6115e-|49" defer=""></script></body>
+</html>

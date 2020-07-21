@@ -1,0 +1,482 @@
+body {
+    font-family: 'Poppins', sans-serif !important;
+    background-color: #1D1E28;
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    border-top: 6px #00f3ff solid !important;
+    font-size: 16px;
+}
+
+.nav-link {
+     font-size: 14px !important;
+     background: transparent !important;
+     font-family: Lato, sans-serif !important;
+     text-transform: capitalize !important;
+ }
+ .nav-link:hover {
+     background: transparent !important;
+     color: #00f3ff !important;
+     font-weight: bold !important;
+ }
+
+
+ .guild-icon {
+    margin-bottom: 15px;
+    margin-left: 15px;
+    border-radius: 50%;
+    border: 2px solid #ddd;
+    vertical-align: middle;
+    transition: border-radius .5s cubic-bezier(.5, 1.65, .5, -0.65);
+    display: inline-block;
+    text-decoration: none;
+    border: 2px solid white !important;
+    box-shadow: 0 1px 10px 0 rgba(0,0,0,0.2), 0 5px 20px 0 rgba(0,0,0,0.22) !important;
+  }
+  
+
+ .login-btn {
+     border: 2px solid #00f3ff !important;
+     font-size: 10px !important;
+ }
+ .login-btn:hover {
+     background: #00f3ff !important;
+ }
+.navbar {
+    box-shadow: none !important
+}
+
+.navbar-brand {
+    font-size: 25px !important
+}
+
+.navbar-toggler-icon {
+    color: #fff !important
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+}
+
+.btn {
+    border-radius: 10px !important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    text-transform: uppercase !important;
+}
+
+.btn2 {
+    border-radius: 10px !important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    text-transform: uppercase !important;
+}
+
+.btn-primary {
+    background-color: #00f3ff!important
+}
+.btn-secondary {
+    background-color: #2C2F33 !important
+}
+.heading {
+    padding: 160px 50px !important;
+    color: #fff !important;
+    background-image: url("../assets/wavy-purple-by-nouridio.svg") !important;
+    background-position: bottom !important;
+    background-size: 300% !important;
+    background-repeat: no-repeat !important;
+}
+
+.title {
+    line-height: 90px !important;
+    margin-bottom: -2px !important;
+    font-size: 36px !important
+}
+
+.subtitle {
+    color: rgba(255, 255, 255, 0.685) !important;
+    font-size: 16px !important;
+    font-family: 'Lato', sans-serif;
+}
+
+
+.features {
+    text-align: center !important;
+    background: #00f3ff !important;
+    padding: 60px 50px !important;
+    background-image: url("../assets/wavy-dark-by-nouridio.svg") !important;
+    background-position: bottom !important;
+    background-size: 200% !important;
+    background-repeat: no-repeat !important;
+}
+.features .title {
+    font-size: 40px !important;
+    color: #ffffff !important;
+    line-height: 70px !important;
+}
+
+.features .subtitle {
+    font-size: 20px !important;
+    color: #a2a8bd;
+}
+
+.features .card-body {
+    text-align: left !important;
+}
+
+.features .card-title {
+    margin: 0 0 -3px !important;
+}
+.cards {
+    margin-top: 30px !important;
+}
+
+.card {
+    border-radius: 5px !important;
+    box-shadow: none !important;
+}
+
+.card-title {
+    font-size: 28px !important;
+    font-weight: 600 !important;
+    color: #00f3ff !important;
+}
+
+.statistics {
+    text-align: center !important;
+    padding-top: 300px !important;
+}
+
+.statistics .card-body{
+    padding: 0 !important;
+    height: 280 !important;
+    width: 332 !important;
+    max-height: 280 !important;
+    max-width: 332 !important;
+}
+
+.statistics .title {
+    font-size: 40px !important;
+    color: #ffffff !important;
+    line-height: 70px !important;
+}
+
+.statistics .subtitle {
+    font-size: 20px !important;
+    color: #a2a8bd;
+}
+
+.card.statistic {
+    background: transparent !important;
+    box-shadow: none !important;
+    color: #f7f7f7 !important;
+}
+
+
+.page_end {
+    background-image: url("../assets/wavy-light-by-nouridio.svg") !important;
+    background-position: bottom !important;
+    background-size: 200% !important;
+    background-repeat: no-repeat !important;
+}
+.start {
+    padding: 60px 50px !important
+}
+
+.start .card {
+    background: transparent !important;
+    color: #f6f9ff !important;
+}
+
+.features .card {
+    background: #1D1E28;
+    border-radius: 22px !important;
+    border: 4px solid #00f3ff;
+}
+.features .card-text {
+color: rgba(255, 255, 255, 0.46) !important
+}
+
+.features .card-body {
+    padding: 40px 40px 40px 30px !important;
+}
+
+.navbar-toggler-icon {
+    color: #fff !important
+}
+.footer {
+    text-align: center !important;
+    padding: 5px 6px !important;
+    color: #ecf2ff;
+    padding: 30px 30px !important
+}
+
+.footer .nouridio {
+    font-family: 'Montserrat' !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    line-height: 5px !important;
+    letter-spacing: 0.15em !important;
+    font-variant: small-caps !important;
+}
+
+.footer .nouridio a {
+    color: #00f3ff !important;
+    text-decoration: none !important;
+}
+
+.footer .bot-footer {
+    text-align: center !important;
+    color: #a2a8bd !important
+}
+
+
+.bot-avatar {
+  border: 5px solid white !important;
+  box-shadow: 0 5px 24px 0 rgba(0,0,0,0.2), 0 5px 20px 0 rgba(0,0,0,0.22) !important;
+}
+
+.guild-name {
+  display: inline-block;
+  margin-left: 15px;
+  vertical-align: bottom;
+  cursor: pointer;
+}
+
+.pre-text {
+  font-size: 15px;
+}
+
+.guild-container{
+  top: 72px;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -o-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -o-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  -o-box-orient: vertical;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.guild-container .serv-container {
+  width: 70%;
+  list-style: none;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -o-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -o-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-orient: horizontal;
+  -moz-box-orient: horizontal;
+  -o-box-orient: horizontal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-lines: multiple;
+  -moz-box-lines: multiple;
+  -o-box-lines: multiple;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.guild-icon {
+  margin-bottom: 15px;
+  margin-left: 15px;
+  border-radius: 50%;
+  border: 2px solid #ddd;
+  vertical-align: middle;
+  transition: border-radius .5s cubic-bezier(.5, 1.65, .5, -0.65);
+  display: inline-block;
+  text-decoration: none;
+  border: 2px solid white !important;
+  box-shadow: 0 1px 10px 0 rgba(0,0,0,0.2), 0 5px 20px 0 rgba(0,0,0,0.22) !important;
+}
+
+.guild-container{
+  display: block;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.guild-icon:hover {
+  border-radius: 15px;
+}
+
+.serv-container {
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+} 
+
+.list-serv {
+  display: block;
+  list-style-type: disc;
+  padding: 0px;
+  list-style: none;
+  opacity: .9;
+}
+
+canvas {
+  background-color: #2a2d32
+}
+
+canvas:hover {
+  background-color: #7289da;
+}
+
+.contenant {
+  font-family: 'Karla',sans-serif;
+  font-size: 16px;
+  position: relative;
+  display: block;
+  background-color: #35383c;
+  border: 1px solid #2a2d32;
+  text-decoration: none;
+  background-color: #00f3ff !important;
+  margin: 15px;
+  opacity: .9;
+  padding: 0.3em;
+  border-radius: 3px; 
+}
+
+.contenant:hover {
+  background-color: #fff !important;
+  border-color: #00f3ff !important;
+  color: #00f3ff !important;
+}
+
+.btn2 {
+  background-color: #23272a !important;
+  border-color: white !important;
+  color: white !important;
+  font-size: 1.25rem !important;
+}
+
+.btn {
+  background-color: transparent !important;
+  border-color: white !important;
+  color: white !important;
+  font-size: 1.25rem !important;
+}
+
+.btn2:hover, .btn2:active, .btn2:focus {
+  background-color: white !important;
+  color: #23272a !important;
+  box-shadow: none;
+  border-color: white !important
+}
+
+
+.btn:hover, .btn:active, .btn:focus {
+  background-color: white !important;
+  color: #23272a !important;
+  box-shadow: none;
+  border-color: white !important
+}
+
+.alert {
+  border: 1px solid #fff;
+  border-top-color: rgb(255, 255, 255);
+  border-right-color: rgb(255, 255, 255);
+  border-bottom-color: rgb(255, 255, 255);
+  border-left-color: rgb(255, 255, 255);
+  border-radius: 3px;
+  margin: 12px 0;
+  padding: 12px;
+}
+
+.success {
+  background-color: rgba(67,181,129,.3);
+  border-color: #43b581;
+}
+
+.error {
+  background-color: rgba(240,71,71,.3);
+  border-color: #f04747;
+}
+
+a {
+  text-decoration: none;
+  color: white !important;
+}
+
+
+
+.box h1{
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.box input[type = "text"],.box input[type = "password"]{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+.box input[type = "text"]:focus,.box input[type = "password"]:focus{
+  width: 280px;
+  border-color: #2ecc71;
+}
+.box input[type = "submit"]{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  padding: 14px 40px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+.box input[type = "submit"]:hover{
+  background: #2ecc71;
+}

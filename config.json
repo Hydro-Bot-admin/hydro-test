@@ -1,0 +1,13 @@
+{
+	"ownerID": "700656817344086078",
+	"webhook": "https://discord.com/api/webhooks/734312937635708991/dXME03_KvY9eviikOb6tCxp97M0Utx-WA4Y5ss7TDfUYdR0uH0bBJjpG3E1xFEYqsjG0",
+	"defaultPrefix": "hy.",
+	"clientSecret": "",
+	"websiteURL": "http://localhost:3000",
+
+	"red": "0xffb3ba",
+	"orange": "0xffdfba",
+	"yellow": "0xfffba",
+	"green": "0xbaffc9",
+	"blue": "0xbae1ff"
+}
